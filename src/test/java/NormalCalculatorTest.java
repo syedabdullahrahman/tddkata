@@ -36,7 +36,7 @@ class NormalCalculatorTest {
 
     @Test
     void twoNumbersNewLineDelimitersReturnSum() {
-        assertEquals(calculator.add("1\n,2"),3);
+        assertEquals(calculator.add("1\n2"),3);
     }
 
     @Test
